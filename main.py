@@ -1,3 +1,6 @@
+import os
+os.makedirs('output', exist_ok=True)
+
 from src.analysis import load_data, hypothesis_1, hypothesis_2, hypothesis_3
 from src.visualize import plot_hypothesis_1, plot_hypothesis_2, plot_hypothesis_3
 
