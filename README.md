@@ -17,6 +17,10 @@ Slightly. Survivors averaged 28 years old, non survivors averaged 30. It is true
 
 ## How to run it
 
+git clone https://github.com/olarewajumary/stats-explorer
+cd stats-explorer
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 
